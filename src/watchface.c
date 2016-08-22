@@ -253,7 +253,22 @@ static void load_icons(Window *window) {
 
 // unload main window
 static void main_window_unload(Window *window) {
+  layer_destroy(s_battery_icon_layer);
+  layer_destroy(s_line_layer);
+  layer_destroy(s_health_line_layer);
   text_layer_destroy(s_clock_layer);
+  text_layer_destroy(s_date_layer);
+  text_layer_destroy(s_temp_layer);
+  text_layer_destroy(s_health_layer);
+  text_layer_destroy(s_city_layer);
+  gbitmap_destroy(s_bluetooth_bitmap);
+  gbitmap_destroy(s_charging_bitmap);
+  gbitmap_destroy(s_weather_bitmap);
+  gbitmap_destroy(s_health_bitmap);
+  bitmap_layer_destroy(s_bluetooth_bitmap_layer);
+  bitmap_layer_destroy(s_charging_bitmap_layer);
+  bitmap_layer_destroy(s_weather_bitmap_layer);
+  bitmap_layer_destroy(s_health_bitmap_layer);
 }
 
 ///////////////////

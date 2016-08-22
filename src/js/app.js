@@ -1,4 +1,4 @@
-var myAPIKey = '8c2aa1a0aa2bdccb0a9b6ef3e71da862';
+var myAPIKey = '';
 var city;
 
 var xhrRequest = function (url, type, callback) {

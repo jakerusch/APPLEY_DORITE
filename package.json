@@ -19,18 +19,6 @@
         "resources": {
             "media": [
                 {
-                    "file": "fonts/ULTRALIGHT.ttf",
-                    "name": "ULTRALIGHT_60",
-                    "targetPlatforms": null,
-                    "type": "font"
-                },
-                {
-                    "file": "fonts/ULTRALIGHT.ttf",
-                    "name": "ULTRALIGHT_12",
-                    "targetPlatforms": null,
-                    "type": "font"
-                },
-                {
                     "file": "images/BLUETOOTH_DISCONNECTED_WHITE_ICON.png",
                     "name": "BLUETOOTH_DISCONNECTED_WHITE_ICON",
                     "targetPlatforms": null,
@@ -114,6 +102,19 @@
                     "name": "APPLEY",
                     "targetPlatforms": null,
                     "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[0-9:]",
+                    "file": "fonts/ULTRALIGHT.ttf",
+                    "name": "ULTRALIGHT_60",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/ULTRALIGHT.ttf",
+                    "name": "ULTRALIGHT_12",
+                    "targetPlatforms": null,
+                    "type": "font"
                 }
             ]
         },
